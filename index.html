@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="welcome-screen">
+        <span style='font-size:100px;'>&#128187;</span>
+        <h1>Welcome to Interactive Quiz Application by Daniyal Hassan</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz-screen" style="display: none;">
+        <div class="head">
+            <h1>Interactive Quiz</h1>
+        </div>
+        <div class="question-number"></div>
+        <div class="progress-bar">
+            <div></div>
+        </div>
+        <div class="question"></div>
+        <div class="options">
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+            <div class="option"></div>
+        </div>
+        <div class="controls">
+            <div class="left">
+                <button id="cancel-btn">Cancel Quiz</button>
+            </div>
+            <div class="right">
+                <button id="prev-btn">Previous</button>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="results-screen" style="display: none;">
+        <div class="score"></div>
+        <div class="score-bar">
+            <div>
+                <p class="score-perc"></p>
+            </div>
+        </div>
+        <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+    <div class="footer">
+        Made with &hearts; by Daniyal
+    </div>
+</body>
+</html>

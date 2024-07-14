@@ -2,7 +2,7 @@ $(document).ready(function() {
     const questions = [
         {
             question: "What color is the sky?",
-            options: ["A) Blue", "B) Red", "C) Green", "D) Yellow"],
+            options: ["Blue", "Red", "Green", "Yellow"],
             answer: "Blue"
         },
         {

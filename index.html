@@ -12,7 +12,6 @@
     <div class="welcome-screen">
         <span style='font-size:100px;'>&#128187;</span>
         <h1>Welcome to Interactive Quiz Application by Daniyal Hassan</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <button id="start-btn">Start Quiz</button>
     </div>
 
@@ -45,11 +44,22 @@
     <div class="results-screen" style="display: none;">
         <div class="score"></div>
         <div class="score-bar">
-            <div>
-                <p class="score-perc"></p>
+            <div class="score-perc">
+
             </div>
         </div>
         <button id="restart-btn">Restart Quiz</button>
+        <button id="review-btn">Review Answers</button>
+    </div>
+
+    <div class="review-screen" style="display: none;">
+        <div class="head">
+            <h1>Review Answers</h1>
+        </div>
+        <div class="review-container"></div>
+        <div class="controls">
+            <button id="back-to-results-btn">Back to Results</button>
+        </div>
     </div>
 
     <div class="footer">
